@@ -13,8 +13,6 @@ namespace Universology.Parsing.ConditionParsing.ConditionTree {
         public Condition(string condition) {
             if (!Parser.Parse(this, condition))
                 throw new ArgumentException(Resources.ParsingException, nameof(condition));
-
-
         }
 
         public override bool Check(Puple.Puple puple) {

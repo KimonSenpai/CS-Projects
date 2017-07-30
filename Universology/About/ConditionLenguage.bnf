@@ -2,6 +2,16 @@
 ##(c) ZKimon, 2017
 
 
+region #Equation
+
+Equation ::= Term | Term "+" Equation. #OR
+Term ::= Factor | Factor "*" Term. #AND
+Factor ::= Condition | "(" Equation ")".
+
+endregion
+
+region #Condition
+
 Condition ::= "[" (DigitCond | SumCond | WayCond) "]".
 
 DigitCond ::= Digit "==" DigitRValue.
@@ -33,3 +43,5 @@ D12_0 ::= "0" | D12.
 D12 ::= D9 | "10" | "11" | "12".
 D9_0 ::= "0" | D9.
 D9 ::= "1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9".
+
+endregion
