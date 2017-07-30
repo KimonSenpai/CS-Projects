@@ -1,0 +1,6 @@
+D:\KIM\Programs\Universology\Universology\bin\Debug\Universology.exe.config
+D:\KIM\Programs\Universology\Universology\obj\Debug\Universology.csprojResolveAssemblyReference.cache
+D:\KIM\Programs\Universology\Universology\obj\Debug\MainWindow.g.cs
+D:\KIM\Programs\Universology\Universology\obj\Debug\App.g.cs
+D:\KIM\Programs\Universology\Universology\obj\Debug\Universology_MarkupCompile.cache
+D:\KIM\Programs\Universology\Universology\obj\Debug\Universology_MarkupCompile.lref

@@ -1,0 +1,35 @@
+#Condition BNF
+##(c) ZKimon, 2017
+
+
+Condition ::= "[" (DigitCond | SumCond | WayCond) "]".
+
+DigitCond ::= Digit "==" DigitRValue.
+SumCond ::= Sum "==" SumWayRValue.
+WayCond ::= Way "==" SumWayRValue.
+
+region #RValues
+DigitRValue ::= (Range | CurrentNumber).
+SumWayRValue ::= D12 | "-".
+
+
+region #Regions
+Range ::= FromRange | ToRange | FromToRange.
+FromToRange ::= "{"Number","Number"}".
+FromRange ::= "{"Number",}".
+ToRange ::= "{,"Number"}".
+CurrentNumber ::= Number.
+endregion
+endregion
+
+region #LValues
+Way ::= (?i)"HW"|"LW". #HW ~ W1; LW ~ W0(In code).
+Sum ::= (?i)["("] "S1"|"S2"|"S3"|"S4" [")"].
+Digit ::= ["("] D12_0 [")"].
+endregion
+
+Number ::= D9_0{D9_0}.
+D12_0 ::= "0" | D12.
+D12 ::= D9 | "10" | "11" | "12".
+D9_0 ::= "0" | D9.
+D9 ::= "1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9".
