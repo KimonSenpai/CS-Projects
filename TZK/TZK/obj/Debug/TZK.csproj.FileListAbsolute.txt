@@ -1,0 +1,12 @@
+D:\KIM\Programs\TZK\TZK\bin\Debug\TZK.exe.config
+D:\KIM\Programs\TZK\TZK\bin\Debug\TZK.exe
+D:\KIM\Programs\TZK\TZK\bin\Debug\TZK.pdb
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.csprojResolveAssemblyReference.cache
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.Field.resources
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.Form1.resources
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.Properties.Resources.resources
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.csproj.GenerateResource.Cache
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.exe
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.pdb
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.ConnectionForm.resources
+D:\KIM\Programs\TZK\TZK\obj\Debug\TZK.Tank.Tank.resources

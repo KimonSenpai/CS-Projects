@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<TankModel name="Юдашкин">
+		<Tank>
+			<Path>MODELS/Tank/Tank.png</Path><!--Path to the file with model-->
+			
+			<Velocity>80</Velocity><!--px/s-->
+			
+			<RotatingSpeed>30</RotatingSpeed><!--Deg/s-->
+			<Size>
+				<Width>953</Width>
+				<Height>474</Height>
+			</Size>
+			<Center>
+				<X>476</X>
+				<Y>237</Y>
+			</Center>
+			<BarrelAxis>
+				<X>470</X>
+				<Y>238</Y>
+			</BarrelAxis>
+		</Tank>
+		<Barrel>
+			<Path>MODELS/Tank/barrel.png</Path>
+		  <RotatingSpeed>45</RotatingSpeed>
+			<Size>
+				<Width>956</Width>
+				<Height>402</Height>
+			</Size>
+			<Center><!--Rotating axis-->
+				<X>201</X>
+				<Y>201</Y>
+			</Center>
+			
+		</Barrel>
+	</TankModel>
+	
+	<Bullet> 
+		<Velocity>100</Velocity><!--px/s--> 
+		<Size> 
+			<Width>353</Width> 
+			<Height>76</Height> 
+		</Size> 
+		<Center> 
+			<X>178</X> 
+			<Y>38</Y> 
+		</Center> 
+		<Path>MODELS/Bullet/bullet.png</Path> 
+	</Bullet>
+
+	<Field> 
+	</Field>
+</Settings>

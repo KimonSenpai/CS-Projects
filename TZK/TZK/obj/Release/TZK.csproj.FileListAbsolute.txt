@@ -1,0 +1,12 @@
+D:\KIM\Programs\TZK\TZK\bin\Release\TZK.exe.config
+D:\KIM\Programs\TZK\TZK\bin\Release\TZK.exe
+D:\KIM\Programs\TZK\TZK\bin\Release\TZK.pdb
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.Field.resources
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.Form1.resources
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.Properties.Resources.resources
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.Tank.resources
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.csproj.GenerateResource.Cache
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.exe
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.pdb
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.csprojResolveAssemblyReference.cache
+D:\KIM\Programs\TZK\TZK\obj\Release\TZK.Form2.resources

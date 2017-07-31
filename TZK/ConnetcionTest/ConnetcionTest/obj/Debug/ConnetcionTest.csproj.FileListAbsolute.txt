@@ -1,0 +1,10 @@
+C:\Users\postb\Documents\Visual Studio 2017\Projects\ConnetcionTest\ConnetcionTest\obj\Debug\ConnetcionTest.csprojResolveAssemblyReference.cache
+C:\Users\postb\Documents\Visual Studio 2017\Projects\ConnetcionTest\ConnetcionTest\bin\Debug\ConnetcionTest.exe.config
+C:\Users\postb\Documents\Visual Studio 2017\Projects\ConnetcionTest\ConnetcionTest\bin\Debug\ConnetcionTest.exe
+C:\Users\postb\Documents\Visual Studio 2017\Projects\ConnetcionTest\ConnetcionTest\bin\Debug\ConnetcionTest.pdb
+C:\Users\postb\Documents\Visual Studio 2017\Projects\ConnetcionTest\ConnetcionTest\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\postb\Documents\Visual Studio 2017\Projects\ConnetcionTest\ConnetcionTest\obj\Debug\ConnetcionTest.exe
+C:\Users\postb\Documents\Visual Studio 2017\Projects\ConnetcionTest\ConnetcionTest\obj\Debug\ConnetcionTest.pdb
+D:\KIM\Programs\TZK\ConnetcionTest\ConnetcionTest\bin\Debug\ConnetcionTest.exe.config
+D:\KIM\Programs\TZK\ConnetcionTest\ConnetcionTest\obj\Debug\ConnetcionTest.exe
+D:\KIM\Programs\TZK\ConnetcionTest\ConnetcionTest\obj\Debug\ConnetcionTest.pdb

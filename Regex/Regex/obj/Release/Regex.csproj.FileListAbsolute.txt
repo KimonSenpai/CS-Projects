@@ -1,0 +1,9 @@
+D:\KIM\Programs\Regex\Regex\bin\Release\Regex.exe.config
+D:\KIM\Programs\Regex\Regex\bin\Release\Regex.exe
+D:\KIM\Programs\Regex\Regex\bin\Release\Regex.pdb
+D:\KIM\Programs\Regex\Regex\obj\Release\Regex.csprojResolveAssemblyReference.cache
+D:\KIM\Programs\Regex\Regex\obj\Release\Regexp.Form1.resources
+D:\KIM\Programs\Regex\Regex\obj\Release\Regex.Properties.Resources.resources
+D:\KIM\Programs\Regex\Regex\obj\Release\Regex.csproj.GenerateResource.Cache
+D:\KIM\Programs\Regex\Regex\obj\Release\Regex.exe
+D:\KIM\Programs\Regex\Regex\obj\Release\Regex.pdb
