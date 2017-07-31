@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Windows.Documents;
+using Universology.ConditionParsing.ConditionTree;
 using Universology.Parsing.ConditionParsing.ConditionTree;
 using Tree = Universology.Parsing.ConditionParsing.ConditionTree.ConditionTree;
 

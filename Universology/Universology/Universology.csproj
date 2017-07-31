@@ -72,20 +72,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Parsing\ConditionParsing\ConditionParser.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\Add.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\Condition.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\ConditionLValueType.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\ConditionRValue\FromRange.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\ConditionRValue\FromToRange.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\ConditionRValue\ToRange.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\ConditionTree.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\ConditionRValue\CurrentNumber.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\ConditionRValue\ConditionRValueType.cs" />
-    <Compile Include="Parsing\ConditionParsing\ConditionTree\Mult.cs" />
-    <Compile Include="Puple\Cross.cs" />
+    <Compile Include="ConditionParsing\ConditionParser.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\Add.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\Condition.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\ConditionLValueType.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\ConditionRValue\FromRange.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\ConditionRValue\FromToRange.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\ConditionRValue\ToRange.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\ConditionTree.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\ConditionRValue\CurrentNumber.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\ConditionRValue\ConditionRValueType.cs" />
+    <Compile Include="ConditionParsing\ConditionTree\Mult.cs" />
+    <Compile Include="Puple\Crosses.cs" />
+    <Compile Include="Puple\Matrix.cs" />
     <Compile Include="Puple\Puple.cs" />
     <Compile Include="Puple\CellType.cs" />
+    <Compile Include="Puple\Zodiac.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

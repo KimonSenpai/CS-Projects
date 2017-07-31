@@ -4,3 +4,8 @@ D:\KIM\Programs\Universology\Universology\obj\Debug\MainWindow.g.cs
 D:\KIM\Programs\Universology\Universology\obj\Debug\App.g.cs
 D:\KIM\Programs\Universology\Universology\obj\Debug\Universology_MarkupCompile.cache
 D:\KIM\Programs\Universology\Universology\obj\Debug\Universology_MarkupCompile.lref
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.csprojResolveAssemblyReference.cache
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\MainWindow.g.cs
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\App.g.cs
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology_MarkupCompile.cache
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology_MarkupCompile.lref

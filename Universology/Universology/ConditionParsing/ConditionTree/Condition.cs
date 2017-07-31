@@ -1,11 +1,12 @@
 ﻿using System;
 using System.ComponentModel;
+using Universology.Parsing.ConditionParsing.ConditionTree;
 using Universology.Parsing.ConditionParsing.ConditionTree.ConditionRValue;
 using Universology.Properties;
+using Universology.Puple;
 
-
-namespace Universology.Parsing.ConditionParsing.ConditionTree {
-    public class Condition : ConditionTree {
+namespace Universology.ConditionParsing.ConditionTree {
+    public class Condition : Parsing.ConditionParsing.ConditionTree.ConditionTree {
 
         private ConditionLValueType _lValue;
         private ConditionRValueType _rValue;
@@ -15,7 +16,7 @@ namespace Universology.Parsing.ConditionParsing.ConditionTree {
                 throw new ArgumentException(Resources.ParsingException, nameof(condition));
         }
 
-        public override bool Check(Puple.Puple puple) {
+        public override bool Check(Puple.Matrix puple) {
             bool res;
             switch (_lValue.Type) {
                 case ConditionLValueType.LValueType.Digit:

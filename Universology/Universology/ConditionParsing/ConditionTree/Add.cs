@@ -1,4 +1,6 @@
-﻿namespace Universology.Parsing.ConditionParsing.ConditionTree {
+﻿using Universology.Puple;
+
+namespace Universology.Parsing.ConditionParsing.ConditionTree {
     public class Add:ConditionTree {
         private ConditionTree _left, _right;
 
@@ -7,7 +9,7 @@
             _right = right;
         }
 
-        public override bool Check(Puple.Puple puple) {
+        public override bool Check(Matrix puple) {
             return _left.Check(puple) || _right.Check(puple);
         }
     }
