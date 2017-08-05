@@ -4,8 +4,8 @@ namespace Universology.Puple {
     public class Matrix {
         private readonly int[] _n = new int[6];
         private string _dateInLine = "";
-        private readonly CellType[] _numbers = new CellType[13];
-        private readonly CellType[] _sums = new CellType[4];
+        private readonly Puple.CellType[] _numbers = new Puple.CellType[13];
+        private readonly Puple.CellType[] _sums = new Puple.CellType[4];
 
         public Matrix(DateTime date) {
             Date = date;
@@ -122,13 +122,13 @@ namespace Universology.Puple {
             return _n[n - 1];
         }
 
-        public CellType Number(int n)
+        public Puple.CellType Number(int n)
         {
             if (!(0 <= n && n <= 12)) throw new Exception("Exception of Puple: Wrong Number index.");
             return _numbers[n];
         }
         
-        public CellType S(int n)
+        public Puple.CellType S(int n)
         {
             if (!(1 <= n && n <= 4)) throw new Exception("Exception of Puple: Wrong S index.");
             return _sums[n - 1];

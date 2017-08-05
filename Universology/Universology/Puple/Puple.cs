@@ -7,7 +7,9 @@ namespace Universology.Puple {
 
         private DateTime _date;
         private Matrix _matrix;
+        private Zodiac _zodiac;
         private Crosses _crosses;
+        
         
         public Puple( DateTime dateTime ) {
             _date = dateTime;
@@ -32,6 +34,8 @@ namespace Universology.Puple {
         public string Name { set; get; }
 
         public Matrix Matrix => _matrix;
+
+        public Zodiac Zodiac => _zodiac;
 
         public Crosses Crosses => _crosses;
 

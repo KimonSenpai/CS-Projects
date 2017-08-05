@@ -120,4 +120,7 @@
   <data name="InvalidConditionLValueType" xml:space="preserve">
     <value>Condition._lValue.Type</value>
   </data>
+  <data name="ZodiacDateException" xml:space="preserve">
+    <value>Zodiac exception: strange date.</value>
+  </data>
 </root>

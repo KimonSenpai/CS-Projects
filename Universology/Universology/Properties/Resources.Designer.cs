@@ -77,5 +77,14 @@ namespace Universology.Properties {
                 return ResourceManager.GetString("ParsingException", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Zodiac exception: strange date..
+        /// </summary>
+        internal static string ZodiacDateException {
+            get {
+                return ResourceManager.GetString("ZodiacDateException", resourceCulture);
+            }
+        }
     }
 }
