@@ -15,7 +15,7 @@ namespace Universology.ConditionParsing.ConditionTree {
                 throw new ArgumentException(Resources.ParsingException, nameof(condition));
         }
 
-        public override bool Check(Puple.Matrix puple) {
+        public override bool Check(Puple.MatrixType puple) {
             bool res;
             switch (_lValue.Type) {
                 case ConditionLValueType.LValueType.Digit:

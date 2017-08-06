@@ -6,9 +6,9 @@ namespace Universology.Puple {
     public partial class Puple {
 
         private DateTime _date;
-        private Matrix _matrix;
-        private Zodiac _zodiac;
-        private Crosses _crosses;
+        private MatrixType _matrix;
+        private ZodiacType _zodiac;
+        private CrossesType _crosses;
         
         
         public Puple( DateTime dateTime ) {
@@ -33,17 +33,17 @@ namespace Universology.Puple {
 
         public string Name { set; get; }
 
-        public Matrix Matrix => _matrix;
+        public MatrixType Matrix => _matrix;
 
-        public Zodiac Zodiac => _zodiac;
+        public ZodiacType Zodiac => _zodiac;
 
-        public Crosses Crosses => _crosses;
+        public CrossesType Crosses => _crosses;
 
         private void Calculate() {
 
-            _matrix = new Matrix(_date);
-            _zodiac = new Zodiac(_date);
-            _crosses = new Crosses(_matrix);
+            _matrix = new MatrixType(_date);
+            _zodiac = new ZodiacType(_date);
+            _crosses = new CrossesType(_matrix);
             
         }
         

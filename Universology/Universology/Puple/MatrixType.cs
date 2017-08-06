@@ -1,13 +1,13 @@
 ﻿using System;
 
 namespace Universology.Puple {
-    public class Matrix {
+    public class MatrixType {
         private readonly int[] _n = new int[6];
         private string _dateInLine = "";
         private readonly Puple.CellType[] _numbers = new Puple.CellType[13];
         private readonly Puple.CellType[] _sums = new Puple.CellType[4];
 
-        public Matrix(DateTime date) {
+        public MatrixType(DateTime date) {
             Date = date;
             Calculate();
         }

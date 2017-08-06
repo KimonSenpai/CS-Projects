@@ -83,11 +83,13 @@
     <Compile Include="ConditionParsing\ConditionTree\ConditionRValue\CurrentNumber.cs" />
     <Compile Include="ConditionParsing\ConditionTree\ConditionRValue\ConditionRValueType.cs" />
     <Compile Include="ConditionParsing\ConditionTree\Mult.cs" />
-    <Compile Include="Puple\Crosses.cs" />
-    <Compile Include="Puple\Matrix.cs" />
+    <Compile Include="Puple\CrossesType.cs" />
+    <Compile Include="Puple\LevelsType.cs" />
+    <Compile Include="Puple\MatrixType.cs" />
     <Compile Include="Puple\Puple.cs" />
     <Compile Include="Puple\CellType.cs" />
-    <Compile Include="Puple\Zodiac.cs" />
+    <Compile Include="Puple\ZodiacType.cs" />
+    <Compile Include="Settings.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

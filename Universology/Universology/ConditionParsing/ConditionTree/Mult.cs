@@ -9,7 +9,7 @@ namespace Universology.Parsing.ConditionParsing.ConditionTree {
             _right = right;
         }
 
-        public override bool Check(Matrix puple) {
+        public override bool Check(MatrixType puple) {
             return _left.Check( puple ) && _right.Check( puple );
         }
     }

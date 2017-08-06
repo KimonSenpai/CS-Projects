@@ -2,7 +2,7 @@
 using Universology.Properties;
 
 namespace Universology.Puple {
-    public class Zodiac {
+    public class ZodiacType {
 
         public enum ZodiacSigns
         {
@@ -15,7 +15,7 @@ namespace Universology.Puple {
             new []{7},      //Gemini
             new []{2},      //Cancer
             new []{1},      //Leo
-            new []{7,11},      //Virgo
+            new []{7,11},   //Virgo
             new []{9},      //Libra
             new []{10,3},   //Scorpio
             new []{5},      //Sagittarius
@@ -44,7 +44,7 @@ namespace Universology.Puple {
 
         public ZodiacSigns ZodiacSign => _zodiac;
 
-        public Zodiac(DateTime date) {
+        public ZodiacType(DateTime date) {
 
             for(int i = 0;i < 7;i++)
                 if (IsIn(date, ZodiacRanges[i])) {

@@ -2,10 +2,10 @@
 
 namespace Universology.Puple {
 
-    public class Crosses {
+    public class CrossesType {
 
         public struct Edge {
-            public Zodiac.ZodiacSigns ZodiacSign;
+            public ZodiacType.ZodiacSigns ZodiacSign;
 
             public int Number1;
             public int? Number2;
@@ -13,19 +13,19 @@ namespace Universology.Puple {
 
         private readonly Edge[,] _crosses = new Edge[3,4];
 
-        public Crosses(Matrix matrix) {
+        public CrossesType(MatrixType matrix) {
 
-            int index = (int) (new Zodiac(matrix.Date)).ZodiacSign;
+            int index = (int) (new ZodiacType(matrix.Date)).ZodiacSign;
 
             for(int i = 0;i < 4;i++)
             for (int j = 0; j < 3; j++) {
                 Edge temp;
-                temp.ZodiacSign = (Zodiac.ZodiacSigns) index;
+                temp.ZodiacSign = (ZodiacType.ZodiacSigns) index;
 
-                temp.Number1 = Zodiac.DigitsOfZodiac[index][0];
-                temp.Number2 = (Zodiac.DigitsOfZodiac[index].Length == 1)
+                temp.Number1 = ZodiacType.DigitsOfZodiac[index][0];
+                temp.Number2 = (ZodiacType.DigitsOfZodiac[index].Length == 1)
                     ? null
-                    : (int?) Zodiac.DigitsOfZodiac[index][1];
+                    : (int?) ZodiacType.DigitsOfZodiac[index][1];
 
                 _crosses[j, i] = temp;
 

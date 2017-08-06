@@ -19,3 +19,5 @@ D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.P
 D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.csproj.GenerateResource.Cache
 D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.exe
 D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.pdb
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\bin\Debug\Universology.exe.CodeAnalysisLog.xml
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\bin\Debug\Universology.exe.lastcodeanalysissucceeded
