@@ -11,11 +11,11 @@ namespace Universology.Puple {
 
         public static readonly int[][] DigitsOfZodiac = {
             new []{3},      //Aries
-            new []{9,11},   //Taurus
+            new []{9,12},   //Taurus
             new []{7},      //Gemini
             new []{2},      //Cancer
             new []{1},      //Leo
-            new []{7},      //Virgo
+            new []{7,11},      //Virgo
             new []{9},      //Libra
             new []{10,3},   //Scorpio
             new []{5},      //Sagittarius
