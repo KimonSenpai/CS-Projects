@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Universology.Parsing.ConditionParsing.ConditionTree.ConditionRValue {
+﻿namespace Universology.ConditionParsing.ConditionTree.ConditionRValue {
     public class FromRange:ConditionRValueType {
         private readonly int _from;
 

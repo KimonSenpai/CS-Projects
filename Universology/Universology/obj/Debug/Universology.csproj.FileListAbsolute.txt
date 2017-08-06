@@ -9,3 +9,13 @@ D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\MainWindow.g.c
 D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\App.g.cs
 D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology_MarkupCompile.cache
 D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology_MarkupCompile.lref
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\bin\Debug\Universology.exe.config
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\bin\Debug\Universology.exe
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\bin\Debug\Universology.pdb
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\bin\Debug\System.ValueTuple.dll
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\MainWindow.baml
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.g.resources
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.Properties.Resources.resources
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.csproj.GenerateResource.Cache
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.exe
+D:\KIM\CS-Project\CS-Projects\Universology\Universology\obj\Debug\Universology.pdb

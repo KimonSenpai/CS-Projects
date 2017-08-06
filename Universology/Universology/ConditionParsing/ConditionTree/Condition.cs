@@ -1,9 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
+using Universology.ConditionParsing.ConditionTree.ConditionRValue;
 using Universology.Parsing.ConditionParsing.ConditionTree;
-using Universology.Parsing.ConditionParsing.ConditionTree.ConditionRValue;
 using Universology.Properties;
-using Universology.Puple;
 
 namespace Universology.ConditionParsing.ConditionTree {
     public class Condition : Parsing.ConditionParsing.ConditionTree.ConditionTree {
@@ -303,8 +302,7 @@ namespace Universology.ConditionParsing.ConditionTree {
                 return (true, new CurrentNumber(number), it);
             }
 
-            private static (bool parsed, int n, CharEnumerator newIter)
-                Way(CharEnumerator iter) {
+            private static (bool parsed, int n, CharEnumerator newIter) Way(CharEnumerator iter) {
 
                 var bad = (false, 0, iter);
                 var it = iter.Clone() as CharEnumerator;

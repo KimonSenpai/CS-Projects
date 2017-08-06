@@ -42,10 +42,9 @@ namespace Universology.Puple {
         private void Calculate() {
 
             _matrix = new Matrix(_date);
+            _zodiac = new Zodiac(_date);
             _crosses = new Crosses(_matrix);
-
-            throw new NotImplementedException();
-
+            
         }
         
     }

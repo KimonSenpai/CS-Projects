@@ -1,4 +1,4 @@
-﻿namespace Universology.Parsing.ConditionParsing.ConditionTree.ConditionRValue {
+﻿namespace Universology.ConditionParsing.ConditionTree.ConditionRValue {
     public class CurrentNumber:ConditionRValueType {
         private readonly int _number;
         public CurrentNumber(int number) { _number = number; }

@@ -1,32 +1,70 @@
-﻿
-using System;
-using System.Windows.Documents;
+﻿using System;
 using Universology.ConditionParsing.ConditionTree;
 using Universology.Parsing.ConditionParsing.ConditionTree;
 using Tree = Universology.Parsing.ConditionParsing.ConditionTree.ConditionTree;
 
-namespace Universology.Parsing.ConditionParsing {
+namespace Universology.ConditionParsing {
     static class ConditionParser {
-
         
-
         public static Tree Parse(string condition) {
             condition += '\0';
 
-            CharEnumerator it = condition.GetEnumerator();
+            var it = condition.GetEnumerator();
 
+            var res = Equation(it);
 
-
-            throw new NotImplementedException();
+            return res.tree;
 
         }
 
         private static (Tree tree, CharEnumerator newIter) Equation(CharEnumerator iter) {
-            throw new NotImplementedException();
+
+            var bad = (null as Tree, iter);
+            var it = iter.Clone() as CharEnumerator;
+
+            if (it == null) return bad;
+
+            var leftValue = Term(it);
+
+            if (leftValue.tree == null) return bad;
+
+            it = leftValue.newIter;
+
+            if (it.Current != '+') return leftValue;
+            if (!it.MoveNext()) return bad;
+
+            var rightValue = Equation(it);
+
+            if (rightValue.tree == null) return bad;
+            it = rightValue.newIter;
+
+            return (new Add(leftValue.tree, rightValue.tree), it);
+
         }
 
         private static (Tree tree, CharEnumerator newIter) Term(CharEnumerator iter) {
-            throw new NotImplementedException();
+
+            var bad = (null as Tree, iter);
+            var it = iter.Clone() as CharEnumerator;
+
+            if (it == null) return bad;
+
+            var leftValue = Factor(it);
+
+            if (leftValue.tree == null) return bad;
+
+            it = leftValue.newIter;
+
+            if (it.Current != '*') return leftValue;
+            if (!it.MoveNext()) return bad;
+
+            var rightValue = Term(it);
+
+            if (rightValue.tree == null) return bad;
+            it = rightValue.newIter;
+
+            return (new Mult(leftValue.tree, rightValue.tree), it);
+
         }
 
         private static (Tree tree, CharEnumerator newIter) Factor(CharEnumerator iter) {
@@ -91,5 +129,6 @@ namespace Universology.Parsing.ConditionParsing {
 
             return (condition, it);
         }
+
     }
 }
