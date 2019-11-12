@@ -47,7 +47,3 @@ void MainWindow::Start_Click(){
     delete paint;
     repaint();
 }
-
-int Five(){
-    return 5;
-}
